@@ -137,7 +137,8 @@ GEM
     pry-rails (0.3.6)
       pry (>= 0.10.4)
     public_suffix (2.0.5)
-    puma (3.9.1)
+    puma (5.6.8)
+      nio4r (~> 2.0)
     rack (2.0.3)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -269,7 +270,7 @@ DEPENDENCIES
   omniauth-google-oauth2
   pg (~> 0.18)
   pry-rails
-  puma (~> 3.0)
+  puma (~> 5.6, >= 5.6.8)
   rails (>= 5.1.2)
   rails_12factor
   rspec-rails
@@ -285,4 +286,4 @@ DEPENDENCIES
   webpacker
 
 BUNDLED WITH
-   1.15.2
+   1.17.3
