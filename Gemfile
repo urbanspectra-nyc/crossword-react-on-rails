@@ -17,7 +17,7 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'launchy', require: false
   gem 'pry-rails'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 8.0.0'
   gem 'shoulda'
   gem 'valid_attribute'
   gem 'vcr'
