@@ -1,31 +1,31 @@
 source 'https://rubygems.org/'
 
-gem 'rails', '>= 5.1.2'
+gem 'rails', '>= 7.1.0'
 gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.3.2'
 group :development do
-  gem 'listen', '~> 3.0.5'
+  gem 'listen', '~> 3.1.0'
   gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'spring-watcher-listen', '~> 2.1.0'
 end
 
 group :development, :test do
-  gem 'capybara'
-  gem 'factory_girl_rails'
+  gem 'capybara', '>= 2.15.0'
+  gem 'factory_girl_rails', '>= 4.9.0'
   gem 'launchy', require: false
   gem 'pry-rails'
-  gem 'rspec-rails'
-  gem 'shoulda'
+  gem 'rspec-rails', '>= 3.6.1'
+  gem 'shoulda', '>= 3.6.0'
   gem 'valid_attribute'
   gem 'vcr'
   gem 'webmock'
 end
 
 group :test do
-  gem 'coveralls', require: false
+  gem 'coveralls', '>= 0.8.22', require: false
   gem 'database_cleaner'
 end
 
@@ -35,8 +35,8 @@ end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'webpacker'
-gem 'dotenv-rails'
-gem "omniauth-google-oauth2"
+gem 'webpacker', '>= 3.0.0'
+gem 'dotenv-rails', '>= 2.7.6'
+gem "omniauth-google-oauth2", ">= 0.5.2"
 gem 'httparty'
-gem 'activerecord-import'
+gem 'activerecord-import', '>= 0.20.0'
