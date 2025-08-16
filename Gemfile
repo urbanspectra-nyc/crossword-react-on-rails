@@ -1,6 +1,6 @@
 source 'https://rubygems.org/'
 
-gem 'rails', '>= 5.1.2'
+gem 'rails', '>= 7.1.5.2'
 gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
@@ -39,4 +39,4 @@ gem 'webpacker'
 gem 'dotenv-rails'
 gem "omniauth-google-oauth2"
 gem 'httparty'
-gem 'activerecord-import'
+gem 'activerecord-import', '>= 0.20.0'
