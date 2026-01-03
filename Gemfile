@@ -38,5 +38,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'webpacker'
 gem 'dotenv-rails'
 gem "omniauth-google-oauth2"
-gem 'httparty'
+gem 'httparty', '>= 0.24.0'
 gem 'activerecord-import'
